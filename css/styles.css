@@ -1,0 +1,53 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h2 { font-size:21px; padding-bottom:7px; }
+
+/*-- Header layout --*/
+.header-image { 
+	display: block; 
+	width: 100%;
+	text-align: center; 
+	background: url('../img/woman_typing.jpg') no-repeat center center scroll; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	background-size: cover; 
+	-o-background-size: cover; 
+} 
+.header-overlay { background-color:rgba(0,0,0,.4); }
+#intro { padding:18% 0; color:#fff; text-shadow: 2px 2px 3px rgba(0,0,0,0.7); }
+#intro h1 { font-size:3.5em; padding-top:25px; }
+#intro p { font-size:1.4em; width:75%; margin:25px auto; }
+#intro p.go { margin-top:100px; text-shadow:none; margin-bottom:50px; }
+
+
+/*-- Custom/Form layout --*/
+#sigCreate, #sigCustom { padding:50px 0; }
+#sigCreate form { width:90%; }
+input, select, option { font:13px 'Open Sans', sans-serif; }
+.msg { font-size:.8em; font-style:oblique; color:#666; }
+.req { color:red; }
+.lbl_input { width:0; text-align:right; padding-right:5px; visibility:hidden; }
+.lbl_cb { font-weight:normal; padding-left:3px; }
+input#cbIRS, input#cbCHM { margin-left:7px; }
+.extra { display: none; }
+
+
+/*-- Panel layout --*/
+#instructions { padding:50px 0 100px 0; background:rgb(213,216,218) url(../img/stamp.png) no-repeat right center scroll; }
+#myTab li { font-size:1.1em; font-weight:bold; }
+#myTabContent .tab-pane { margin:20px auto 25px auto; }
+#myTabContent li { padding-bottom:5px; }
+
+
+/*-- Footer layout --*/
+footer { background-color:rgb(25,25,25); color:#fff; }
+#footer { font-size:11px; padding:50px 0; }
+
+
+/***--- CSS overrides ---***/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    border: 1px solid #999;
+}
+.nav-tabs { border-bottom:1px solid #999; }
+.nav-tabs > li > a:hover { border-bottom-color:#999; }
